@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boyline Fall | Web Developer & Mechatronics</title>
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%2300E676'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23121212'%3EB%3C/text%3E%3C/svg%3E">
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description"
+    content="Portfolio de Boyline Fall - Développeur Web & Etudiant en BTS Mécatronique et Licence 1 IDA UNCHK.">
+  <meta name="author" content="Boyline Fall">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Boyline Fall | Web Developer & Mechatronics">
+  <meta property="og:description"
+    content="Portfolio de Boyline Fall - Développeur Web & Etudiant en BTS Mécatronique et Licence 1 IDA UNCHK.">
+  <meta property="og:image" content="assets/images/hero_person.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Boyline Fall | Web Developer & Mechatronics">
+  <meta name="twitter:description"
+    content="Portfolio de Boyline Fall - Développeur Web & Etudiant en BTS Mécatronique et Licence 1 IDA UNCHK.">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Design CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#home" class="nav-brand" id="nav-brand-link">
+          <div class="brand-badge">B</div>
+          <div class="brand-text">Tech</div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active" id="nav-home-link">ACCUEIL</a></li>
+          <li><a href="#about" class="nav-link" id="nav-about-link">À PROPOS</a></li>
+          <li><a href="#services" class="nav-link" id="nav-services-link">SERVICES</a></li>
+          <li><a href="#journey" class="nav-link" id="nav-journey-link">PARCOURS</a></li>
+          <li><a href="#contact" class="nav-link" id="nav-contact-link">CONTACT</a></li>
+        </ul>
+
+        <button class="nav-toggle" id="nav-toggle-btn" aria-label="Ouvrir ou fermer le menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Hero Text -->
+          <div class="hero-text-content">
+            <h2 class="hero-subhead">Développeur Web</h2>
+            <h1 class="hero-name">Boyline Fall</h1>
+            <p class="hero-desc">
+              Étudiant en Licence Internet & Développement d'Applications (UNCHK) et 1ère année BTS Mécatronique.
+              Passionné par la création d'interfaces web modernes et les systèmes intelligents.
+            </p>
+            <a href="#contact" class="btn btn-green" id="hero-btn-learn">En savoir plus</a>
+          </div>
+
+          <!-- Hero Visual (Dual Circles + Cutout Person) -->
+          <div class="hero-visual">
+            <div class="circles-wrapper">
+              <div class="circle-green"></div>
+              <div class="circle-white"></div>
+            </div>
+            <img src="assets/images/hero_person.png" alt="Boyline Fall - Web Developer" class="hero-cutout-img">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- About Visual (Ellipse Ring + Cutout Person) -->
+          <div class="about-visual">
+            <div class="ellipse-ring"></div>
+            <img src="assets/images/about_person.png" alt="Boyline Fall - Professional Profile"
+              class="about-cutout-img" loading="lazy">
+          </div>
+
+          <!-- About Text -->
+          <div class="about-text-content">
+            <h2 class="about-title">
+              DÉVELOPPEUR <br>
+              <span class="green">WEB PROFESSIONNEL</span>
+            </h2>
+            <p class="about-desc">
+              Alliant le développement informatique et l'ingénierie mécatronique, je conçois des solutions logicielles
+              complètes, des sites web réactifs et j'explore les interactions hardware/software. Formé à l'Université
+              Numérique Cheikh Hamidou Kane (UNCHK L1 IDA) et en BTS Mécatronique.
+            </p>
+            <a href="#services" class="btn btn-green" id="about-btn-learn">En savoir plus</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Skills Section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">MES <span>SERVICES</span></h2>
+          <p class="section-subtitle">Découvrez mes domaines de spécialisation et compétences techniques</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Card 1: Web Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="service-card-title">Web Development</h3>
+            <p class="service-card-desc">
+              Création d'interfaces web réactives, modernes et performantes avec HTML5, CSS3, JavaScript ES6+ et
+              développement backend en Python.
+            </p>
+            <a href="#contact" class="btn btn-green">En savoir plus</a>
+          </div>
+
+          <!-- Card 2: UI / UX Design / Mécatronique -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="service-card-title">Mécatronique & IoT</h3>
+            <p class="service-card-desc">
+              Conception de systèmes embarqués, programmation d'automates, capteurs, actionneurs et intégration de
+              systèmes intelligents.
+            </p>
+            <a href="#contact" class="btn btn-green">En savoir plus</a>
+          </div>
+
+          <!-- Card 3: Graphics Design / Software -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3 class="service-card-title">Génie Logiciel & Réseaux</h3>
+            <p class="service-card-desc">
+              Conception algorithmique, gestion des bases de données SQL, contrôle de version avec Git & GitHub, et
+              architectures réseaux.
+            </p>
+            <a href="#contact" class="btn btn-green">En savoir plus</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Journey Section -->
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">PARCOURS <span>ACADÉMIQUE</span></h2>
+          <p class="section-subtitle">Formations universitaires et cursus professionnels</p>
+        </div>
+
+        <div class="journey-grid">
+
+          <div class="journey-card">
+            <span class="journey-year">2025 - PRÉSENT</span>
+            <h3 class="journey-title">Licence 1 (L1) - Internet & Dev App (IDA)</h3>
+            <p class="journey-school">Université Numérique Cheikh Hamidou Kane (UNCHK)</p>
+            <p class="journey-desc">
+              Spécialisation en développement web, ingénierie logicielle, algorithmique et gestion de données.
+            </p>
+          </div>
+
+          <div class="journey-card">
+            <span class="journey-year">2025 - PRÉSENT</span>
+            <h3 class="journey-title">1ère Année - BTS Mécatronique</h3>
+            <p class="journey-school">Enseignement Technique & Professionnel</p>
+            <p class="journey-desc">
+              Synergie mécanique, électronique et informatique pour la conception d'équipements automatisés.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section class="section" id="github">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">GITHUB <span>STATS</span></h2>
+          <p class="section-subtitle">Aperçu des contributions open source</p>
+        </div>
+
+        <div class="github-grid">
+          <div class="github-box">
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=boylinefall&show_icons=true&theme=dark&hide_border=true"
+              alt="Boyline Fall GitHub Stats" loading="lazy">
+          </div>
+          <div class="github-box">
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=boylinefall&layout=compact&theme=dark&hide_border=true"
+              alt="Top Languages" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">ME <span>CONTACTER</span></h2>
+          <p class="section-subtitle">N'hésitez pas à me transmettre un message pour toute opportunité</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Votre Nom</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="Ex: Moussa Diop" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Votre Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="Ex: moussa@exemple.com"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Rédigez votre message..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-green">Envoyer le message</button>
+            <p class="form-message" id="form-message" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">&copy; <span id="year">2026</span> Boyline Fall. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
